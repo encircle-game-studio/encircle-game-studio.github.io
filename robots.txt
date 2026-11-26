@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://encircle-game-studio.github.io/sitemap.xml
