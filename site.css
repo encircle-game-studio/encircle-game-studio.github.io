@@ -101,3 +101,11 @@ th { background: var(--panel); }
 .get main { text-align: center; }
 .get img { border-radius: 22.5%; }
 .get a.b { display: block; max-width: 320px; margin: 12px auto; }
+
+/* game pages: screenshot strip (scrolls sideways on small screens) */
+.gallery { list-style: none; margin: 0 -20px; padding: 4px 20px 14px; display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; }
+.gallery li { margin: 0; flex: 0 0 auto; scroll-snap-align: start; }
+.gallery img { display: block; height: 420px; width: auto; border-radius: 10px; border: 1px solid var(--rule); }
+.gallery.wide img { height: auto; width: min(78vw, 560px); }
+@media (max-width: 480px) { .gallery img { height: 340px; } }
+.home h1 { margin-top: 8px; }
