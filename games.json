@@ -1,0 +1,35 @@
+[
+ {
+  "slug": "towertap",
+  "name": "Tower Tap",
+  "listed": true,
+  "page": "https://encircle-game-studio.github.io/towertap/",
+  "description": "Rebuild the Great Pyramid, Qutub Minar and famous skyscrapers from their blueprints, one floor at a time. A tower stacking game for phones and tablets.",
+  "app_store": "https://apps.apple.com/app/id6822339744",
+  "google_play": "https://play.google.com/store/apps/details?id=com.encircletechnologies.towertap",
+  "chrome_web_store": "https://chromewebstore.google.com/detail/tower-tap-world-heights/kjomlaaifhoocjjjjbbimdclagolhoea",
+  "publisher": "Encircle Technologies Private Limited"
+ },
+ {
+  "slug": "highwaybrawlers",
+  "name": "Highway Brawlers",
+  "listed": true,
+  "page": "https://encircle-game-studio.github.io/highwaybrawlers/",
+  "description": "Race motorcycles and fight rival bikers with punches and kicks across 25 highways. The riders you hit remember you. Races play offline.",
+  "app_store": "https://apps.apple.com/app/id6826563490",
+  "google_play": "https://play.google.com/store/apps/details?id=com.encircletechnologies.highwaybrawlers",
+  "chrome_web_store": null,
+  "publisher": "Encircle Technologies Private Limited"
+ },
+ {
+  "slug": "letterleaves",
+  "name": "Letter Leaves",
+  "listed": true,
+  "page": "https://encircle-game-studio.github.io/letterleaves/",
+  "description": "Spelling, phonics and reading games for kids aged 5 to 11. Every word your child learns grows their own garden. Plays offline and collects nothing.",
+  "app_store": "https://apps.apple.com/app/id6826751732",
+  "google_play": "https://play.google.com/store/apps/details?id=com.encircletechnologies.letterleaves",
+  "chrome_web_store": null,
+  "publisher": "Encircle Technologies Private Limited"
+ }
+]

@@ -90,8 +90,9 @@ li { margin-bottom: 6px; }
 .faq p { max-width: 38rem; }
 
 /* legal and help pages */
-table { border-collapse: collapse; width: 100%; font-size: 15px; display: block; overflow-x: auto; }
-td, th { border: 1px solid var(--rule); padding: 7px 9px; text-align: left; vertical-align: top; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+td, th { border: 1px solid var(--rule); padding: 7px 9px; text-align: left; vertical-align: top; overflow-wrap: break-word; hyphens: auto; }
+@media (max-width: 480px) { table { font-size: 14px; } td, th { padding: 6px; } }
 th { background: var(--panel); }
 .lang { font-size: 15px; color: var(--muted); }
 .doc h1 { font-size: clamp(26px, 5vw, 34px); }
