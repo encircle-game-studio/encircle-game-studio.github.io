@@ -29,7 +29,7 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* header and footer */
 .site-head { border-bottom: 1px solid var(--rule); }
-.site-head .wrap { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 20px; padding-top: 18px; padding-bottom: 14px; }
+.site-head .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 20px; padding-top: 18px; padding-bottom: 14px; }
 .brand { font-weight: 700; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
 .site-head nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
 .site-head nav a:first-child { margin-left: 0; }
@@ -110,3 +110,10 @@ th { background: var(--panel); }
 .gallery.wide img { height: auto; width: min(78vw, 560px); }
 @media (max-width: 480px) { .gallery img { height: 340px; } }
 .home h1 { margin-top: 8px; }
+
+/* studio logo (27 Nov 2026): header mark and home page logo */
+.brand { display: inline-flex; align-items: center; color: var(--ink); }
+.brand .logo-line { height: 28px; width: auto; display: block; }
+@media (max-width: 480px) { .brand .logo-line { height: 24px; } }
+h1.logo { margin: 0 0 18px; line-height: 0; }
+h1.logo img { width: min(100%, 420px); height: auto; }
