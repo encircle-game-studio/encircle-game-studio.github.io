@@ -98,9 +98,8 @@ section[id], h2[id] { scroll-margin-top: 84px; }
 }
 
 /* sections */
-main > section, .band { padding: clamp(64px, 9vw, 120px) 0; border-top: 1px solid var(--line); }
+main > section { padding: clamp(64px, 9vw, 120px) 0; border-top: 1px solid var(--line); }
 main > section:first-child { border-top: 0; }
-.band.alt { background: var(--surface); }
 
 /* home */
 .home-hero { padding: clamp(56px, 9vw, 112px) 0 clamp(48px, 6vw, 80px); }
@@ -193,7 +192,7 @@ h1.logo img { width: min(100%, 520px); height: auto; }
 
 /* legal, help and 404 pages: one readable column */
 main.wrap { padding-top: 48px; padding-bottom: 80px; }
-.doc main, .get main, body:not([class]) main { max-width: calc(46rem + 2 * var(--gut)); }
+.doc main, .get main { max-width: calc(46rem + 2 * var(--gut)); }
 .doc h1 { font-size: clamp(34px, 5vw, 52px); margin-bottom: 18px; }
 .doc h2 { font-size: clamp(26px, 3vw, 32px); margin: 44px 0 12px; }
 .doc h3 { margin-top: 26px; }
@@ -205,7 +204,6 @@ th { background: var(--surface); }
 .get main { text-align: center; }
 .get img { border-radius: 22.5%; }
 .get a.b { display: flex; max-width: 320px; margin: 12px auto; }
-body:not([class]) h1 { margin-bottom: 18px; }
 
 /* small screens */
 @media (max-width: 900px) {
